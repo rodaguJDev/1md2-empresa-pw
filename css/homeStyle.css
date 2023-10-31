@@ -13,3 +13,18 @@ body {
     row-gap: 1rem;
     justify-content: space-around;
 }
+
+.card-title {
+    height: 70px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    opacity: 0.75;
+    color:darkred;
+    font-size: 0.8em;
+}
+
+.new-price {
+    font-size: 1.2em;
+}

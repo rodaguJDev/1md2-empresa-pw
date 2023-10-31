@@ -3,6 +3,10 @@
     font-family: "Quicksand Light";
     src: url("../fonts/Quicksand.ttf");
 }
+@font-face {
+    font-family: "PT Mono";
+    src: url("../fonts/PTMono-Regular.ttf");
+}
 
 :root {
     --color-1: #10a01f;
@@ -20,4 +24,8 @@ body {
 
 .quicksand {
     font-family: "Quicksand Light" !important;
+}
+
+.pt-mono {
+    font-family: "PT Mono" !important;
 }
