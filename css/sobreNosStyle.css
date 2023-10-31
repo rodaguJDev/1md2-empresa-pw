@@ -1,4 +1,10 @@
-.about-us {
-    display: flex;
-    gap: 1rem;
+.card {
+    width: 50%;
+    justify-self: center ;
+}
+
+@media only screen and (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
 }

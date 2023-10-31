@@ -14,6 +14,10 @@
     font-family: "Quicksand Light";
 }
 
+body {
+	overflow-x: hidden;
+}
+
 .quicksand {
     font-family: "Quicksand Light" !important;
 }

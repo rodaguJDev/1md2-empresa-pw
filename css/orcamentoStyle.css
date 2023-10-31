@@ -7,11 +7,11 @@
     width: 128px;
     border: 1px solid black;
 }
-
 .produto-dados {
     display: flex;
     flex: 1;
     justify-content: space-between;
+    gap: 3rem;
 }
 
 .produto-dado {
@@ -24,7 +24,8 @@
     width: 25vw;
 }
 
-.pagamento-container {
-    display: flex;
-    flex-direction: row;
+@media only screen and (max-width: 576px) {
+    .produto-dados {
+        flex-direction: column;
+    }
 }
