@@ -1,0 +1,19 @@
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    row-gap: 4rem;
+    text-align: center;
+}
+
+.email,
+.phone,
+.local
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.local {
+    grid-column: 1 / 3;
+}

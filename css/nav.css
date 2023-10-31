@@ -1,0 +1,28 @@
+.nav-container {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    z-index: 1000;
+}
+nav {
+    background-color: var(--color-4);
+}
+
+nav .logo-empresa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .nav-item a {
+    font-weight:600;
+    font-size: 1.2rem;
+}
+nav .logo-empresa span {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+nav .navbar-nav {
+    gap:12px;
+}

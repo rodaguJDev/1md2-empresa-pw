@@ -1,0 +1,19 @@
+@import url("./nav.css");
+@font-face {
+    font-family: "Quicksand Light";
+    src: url("../fonts/Quicksand.ttf");
+}
+
+:root {
+    --color-1: #10a01f;
+    --color-2: #F5FF52;
+    --color-3: #160098;
+    --color-4: #7d4ad6;
+    --color-5: #0068FF;
+
+    font-family: "Quicksand Light";
+}
+
+.quicksand {
+    font-family: "Quicksand Light" !important;
+}

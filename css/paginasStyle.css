@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item img
+{
+    max-height: 100%;
+}

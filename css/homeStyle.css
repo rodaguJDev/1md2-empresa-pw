@@ -1,0 +1,15 @@
+body {
+    user-select: none;
+}
+
+.carousel-item img {
+    width: auto;
+    height:70vh;
+}
+
+.custom-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 18rem);
+    row-gap: 1rem;
+    justify-content: space-around;
+}

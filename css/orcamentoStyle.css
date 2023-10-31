@@ -1,0 +1,30 @@
+.produto-orcamento {
+    display: flex;
+    gap: 20px;
+}
+
+.img-preview img {
+    width: 128px;
+    border: 1px solid black;
+}
+
+.produto-dados {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.produto-dado {
+    text-align: right;
+    margin: 0;
+}
+
+.descricao .produto-dado {
+    text-align: left;
+    width: 25vw;
+}
+
+.pagamento-container {
+    display: flex;
+    flex-direction: row;
+}
