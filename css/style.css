@@ -22,6 +22,10 @@ body {
 	overflow-x: hidden;
 }
 
+body {
+    user-select: none;
+}
+
 .quicksand {
     font-family: "Quicksand Light" !important;
 }

@@ -17,3 +17,14 @@ main {
 {
     max-height: 100%;
 }
+
+.old-price {
+    text-decoration: line-through;
+    opacity: 0.75;
+    color:aqua;
+    font-size: 0.8em;
+}
+
+.new-price {
+    font-size: 1.2em;
+}

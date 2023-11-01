@@ -3,10 +3,23 @@
     gap: 20px;
 }
 
+.multiplos-dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .img-preview img {
     width: 128px;
     border: 1px solid black;
 }
+
 .produto-dados {
     display: flex;
     flex: 1;
@@ -15,13 +28,12 @@
 }
 
 .produto-dado {
-    text-align: right;
     margin: 0;
+    width: 25vw;
 }
 
-.descricao .produto-dado {
-    text-align: left;
-    width: 25vw;
+#prod1-qt {
+    width:5ch;
 }
 
 @media only screen and (max-width: 576px) {
