@@ -33,3 +33,9 @@ body {
 .pt-mono {
     font-family: "PT Mono" !important;
 }
+
+.whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}

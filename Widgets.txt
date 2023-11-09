@@ -1,0 +1,5 @@
+WIDGETS:
+- Mapa
+- Whatsapp
+- Clima
+- Vídeo

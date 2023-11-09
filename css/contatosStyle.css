@@ -1,28 +1,8 @@
-.email,
-.phone,
-.local
-{
-    display: flex;
-    flex-direction: column;
+.map {
+    flex: 1;
 }
 
-.map,
 .map iframe {
-    width: 90vw;
-    height: 450px;
-    align-self: center;
-}
-
-@media only screen and (min-width: 576px) {
-    .contact-info {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr auto;
-        row-gap: 4rem;
-        text-align: center;
-    }
-
-    .local {
-        grid-column: 1 / 3;
-    }
+    width: 100%;
+    height: 100%;
 }
